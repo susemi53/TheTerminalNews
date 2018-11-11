@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+li {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 20px 0px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+#logo {
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding: 0px 50px;
+}
+
+li a {
+  color: black;
+}
+
+.banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+  height: 700px;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+#banner-content {
+  position: relative;
+  padding: 50px 0;
+  margin: 0 0 0 60%;
+}
+
+h1 {
+  color: white;
+  font-weight: 300px;
+  font-size: 40px;
+  text-align: left;
+  border: solid white 1px;
+  width: 50%;
+  top: 20px;
+  padding: 10px;
+}
+
+.headline {
+  margin: 50px auto;
+}
+
+.headline h3 {
+  font-size: 30px;
+  line-height: 50px;
+  color: #D7263D;
+  width: 50%;
+  margin: 30px auto;
+}
+
+span {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  font-size: 14px;
+  padding: 5px;
+  margin: 0 0 50px 0;
+}
+
+.pull-quote {
+  color: #D7263D;
+  letter-spacing: 2px;
+  line-height: 50px;
+  width: 300px;
+  border: 1px solid #D7263D;
+  padding: 30px 30px;
+  margin: 20px auto;
+}
+
+p {
+  font-size: 20px;
+  line-height: 55px;
+  width: 60%;
+  margin: 50px auto;
+}
+
+.share a {
+  color: white;
+  background-color: #D7263D;
+  font-size: 15px;
+  padding: 20px 50px;
+  border-radius: 5px;
+  border: 1px solid #D7263D;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.share a:hover {
+  background-color: #fff;
+  border: 1px solid #D7263D;
+  color: #D7263D;
+  animation: ease-in;
+
+}
+
+.share {
+  border-top: 1px solid #ccc;
+  padding: 50px 0;
+}
